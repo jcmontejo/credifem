@@ -157,7 +157,7 @@ return [
         App\Providers\RouteServiceProvider::class,
         //laravel collective
         Collective\Html\HtmlServiceProvider::class,
-        
+
         //Crud Generator
         'Illuminate\View\ViewServiceProvider',
         'Illuminate\Html\HtmlServiceProvider',
@@ -196,10 +196,10 @@ return [
          */
 
         Kim\Activity\ActivityServiceProvider::class,
-        
-        
-        
-        
+
+
+
+
 
         ],
 
@@ -270,7 +270,7 @@ return [
 
     /* DOMPDF */
     'PDF' => Barryvdh\DomPDF\Facade::class,
-    
+
     /*carbon español*/
     'Date' => Jenssegers\Date\Date::class,
 
@@ -288,10 +288,10 @@ return [
      */
 
     'Activity' => Kim\Activity\ActivityFacade::class,
-    
 
-    
-    
+
+
+
 
     ],
 
